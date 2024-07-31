@@ -8,7 +8,7 @@ The project consists of the following sections:
 ### 1. Data Preprocessing
 The initial steps involve importing relevant libraries, reading the JSON file, and performing basic data cleaning operations such as handling missing values and resetting the index. Additionally, downsampling the dataset to 10,000 rows is done for model training.
 
-Later on, as a part of preprocessing, we performed feature selection. We combined the review summary and text columns into one column called 'reviewTextSumaaryMerge'. After stop word removal, we used this column to get the tfidf vector and eventually feed it into the model.
+Later on, as a part of preprocessing, we performed feature selection. We combined the review summary and text columns into one column called 'reviewTextSumaaryMerge'. After stop word removal, we used this column to get the TFIDF vector and eventually fed it into the model.
 
 ### 2. Textual Data Analysis
 This section calculates various properties of the textual data, including text length, number of words, and the presence of non-alphanumeric characters. The data quality report for both categorical and continuous features is generated, providing insights into the dataset's statistical properties.

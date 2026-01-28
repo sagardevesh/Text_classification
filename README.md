@@ -1,4 +1,4 @@
-This project is part of the CSCI6409 Process of Data Science course. The project involves data preprocessing, exploratory data analysis, and building a text classification model using Multinomial Naive Bayes. The dataset used is sourced from a JSON file.
+This implementation involves data preprocessing, exploratory data analysis, and building a text classification model using Multinomial Naive Bayes. The dataset used is sourced from a JSON file.
 
 Here is the original [Amazon Books Reviews](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews) dataset.
 
